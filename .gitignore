@@ -1,0 +1,56 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Project data: keep locally, never upload to Git
+backend/data/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs and backups
+*.log
+*.bak
+*.backup
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary backups and generated files
+*.backup
+*.backup.*
+*.v085_backup_*
+*.tsbuildinfo
+
+# Obsolete historical backfill scheduling scripts
+scripts/install_daily_task.ps1
+scripts/remove_daily_task (2).ps1
+scripts/run_backfill_batch (2).ps1
+
+# Historical backfill and scheduled-task files - keep local only
+/run_daily_grid_update.cmd
+/scripts/install_daily_task.ps1
+/scripts/remove_daily_task (2).ps1
+/scripts/run_backfill_batch (2).ps1
+
+# All timestamped backup files
+*.backup_*

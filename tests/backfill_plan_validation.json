@@ -1,0 +1,13 @@
+{
+  "mode": "backfill",
+  "start_date": "2022-01-01",
+  "end_date_exclusive": "2026-10-29",
+  "region_filter": "ALL",
+  "planned_monthly_reports": 1160,
+  "completed_reports": 0,
+  "remaining_reports": 1160,
+  "batch_limit": 10,
+  "temporal_resolution": "HOURLY",
+  "spatial_resolution": "HIGH",
+  "identity_available": false
+}
